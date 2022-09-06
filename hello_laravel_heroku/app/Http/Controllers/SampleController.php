@@ -19,7 +19,7 @@ class SampleController extends Controller
             ],
             [
                 "name" => "peach",
-                "price" => 400
+                "price" => 500
             ],
         ];
 
