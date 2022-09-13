@@ -24,5 +24,5 @@ Route::post('/process', [ProcessController::class, 'index']);
 
 Route::group(['middleware' => 'basicauth'], function() {
 
-  Route::get('/sample', [SampleController::class, 'index'])->name('top');
+  Route::get('/sample', [SampleController::class, 'index']);
 });
